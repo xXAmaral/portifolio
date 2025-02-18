@@ -1,9 +1,11 @@
+import NavBar from "../../components/NavBar/NavBar";
 import Hero from "./Hero/Hero";
 
-function Home() {
+const Home = () =>{
 
     return (
       <>
+        <NavBar/>
         <Hero/>
       </>
     )
